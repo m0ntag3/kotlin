@@ -5,12 +5,12 @@ fun main() {
     val number = 0
 
     if (number > 0) {
-        println("The nuber is positive")
+        println("The number is positive")
     }
     else if (number == 0) {
         println("The number is zero")
     }
-    else{
+    else {
         println("The number is negative")
     }
 }

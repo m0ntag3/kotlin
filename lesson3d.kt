@@ -1,0 +1,15 @@
+fun main() {
+    // Arrays
+    // Collection of items that are related in nature.
+    // To access an item in an array use the index starting from index 0.
+    // to create an array use the arrayOf function/ method.
+
+    val numbers = arrayOf(25, 54, 54, 32, 74, 36, 74, 31)
+    // println(numbers.contentToString()) // gives the items in a list
+    println(numbers.joinToString())  // Gives  the items within the array only
+
+    // Printing item on index three
+    println("The number in index three is:" + numbers[3])
+
+    
+}
