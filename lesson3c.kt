@@ -15,6 +15,6 @@ fun main() {
     var c = 50
     while (c >= 35){
         println("The number is: $c")
-        c = c - 2
+        c = c - 2 // Also c -= 2
     }
 }
